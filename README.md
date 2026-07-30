@@ -1,1 +1,1 @@
-# Udacity-JavaScript-projects.
+# Udacity-JavaScript-projects
