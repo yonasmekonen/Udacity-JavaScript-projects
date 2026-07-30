@@ -5,4 +5,11 @@ const laugh = function(max){
     }
     return result += "!";
 }
-console.log(laugh(5));
+const emotion = function(midPar){
+    let result = "i am "+ midPar +laugh(2);
+    return result;
+
+}
+
+
+console.log(emotion("Happy"));
