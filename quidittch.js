@@ -1,15 +1,21 @@
-const team1 = ["Oliver Wood", "Angelina Johnson", "Katie Bell", "Alicia Spinnet", "George Weasley", "Fred Weasley", "Harry Potter"];
-const team2 = ["George Weasley", "Fred Weasley", "Harry Potter"];
-const team3 = [];
-const team4 = ["Oliver Wood", "Angelina Johnson", "Katie Bell", "Alicia Spinnet", "George Weasley", "Fred Weasley", "Harry Potter", "Hermione Granger", "Ron Weasley", "Neville Longbottom"];
+const team =[
+ ["Oliver Wood", "Angelina Johnson", "Katie Bell", "Alicia Spinnet", "George Weasley", "Fred Weasley", "Harry Potter"],
+  ["George Weasley", "Fred Weasley", "Harry Potter"],
+  ["jo"],
+  ["Oliver Wood", "Angelina Johnson", "Katie Bell", "Alicia Spinnet", "George Weasley", "Fred Weasley", "Harry Potter", "Hermione Granger", "Ron Weasley", "Neville Longbottom"]
     
+];
+function hasEnoughPlayers() {
+let index = 0;
 
-function hasEnoughPlayers([]) {
-if(team4.length >= 7){
- return true;
-}else{
-    return false;
+while(index < team.length){
+     if (team[index].length >= 7){
+        console.log(true);
+    }
+    index++;
+}
+console.log(false);
 }
 
-}
-console.log(hasEnoughPlayers(team4));
+
+hasEnoughPlayers();
