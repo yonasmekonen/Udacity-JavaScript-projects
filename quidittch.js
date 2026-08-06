@@ -8,13 +8,17 @@ const team =[
 function hasEnoughPlayers() {
 let index = 0;
 
-while(index < team.length){
-     if (team[index].length >= 7){
+while(index <=team.length-1){
+     if (team[index].length>= 7){
         console.log(true);
+    }else{
+ console.log(false);
     }
-    index++;
+       
+                index++;
+             
 }
-console.log(false);
+
 }
 
 
