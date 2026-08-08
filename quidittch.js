@@ -13,7 +13,7 @@ while(index <=team.length-1){
         console.log(true);
     }else{
  console.log(false);
-    }
+    };
        
                 index++;
              
