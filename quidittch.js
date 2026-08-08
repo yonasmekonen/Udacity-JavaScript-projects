@@ -18,8 +18,6 @@ while(index <=team.length-1){
                 index++;
              
 }
-
 }
-
 
 hasEnoughPlayers();
