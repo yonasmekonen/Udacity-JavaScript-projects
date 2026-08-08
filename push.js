@@ -6,7 +6,10 @@
  mechanic = "Kaylee";
 
 const crew =[captain,second,pilot,companion,mercenary,mechanic];
- crew.push(doctor = "Simon");
- crew.push(sister = "River");
- crew.push(shepherd = "Book");
+ doctor = "Simon";
+ sister = "River";
+ shepherd = "Book";
+ crew.push(doctor);
+ crew.push(sister);
+ crew.push(shepherd);
 console.log(crew);
